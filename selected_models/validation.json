@@ -1,0 +1,23 @@
+{
+  "verified_files": 116,
+  "new_training": false,
+  "Stage2": "Not run",
+  "V9_2023_volcano_macro_MAE_mm": {
+    "EMA30": 10.549942538094898,
+    "four_horizon": 10.412708694676942,
+    "quality": 10.522252533136507
+  },
+  "four_branch_checkpoint_replay_cases": [
+    34,
+    46,
+    51
+  ],
+  "original64_frame_macro_MAE_mm": {
+    "lowrank_r3_robust": 14.431700429038315,
+    "persistence": 15.671541433088429
+  },
+  "CVAE_2023_mean_seed_volcano_macro_CRPS_mm": 8.172473710107143,
+  "quick": false,
+  "seconds": 48.815533171000425,
+  "status": "passed"
+}

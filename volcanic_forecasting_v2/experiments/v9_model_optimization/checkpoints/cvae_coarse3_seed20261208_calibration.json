@@ -1,0 +1,6 @@
+{
+  "scale": 1,
+  "criterion": "2022 CRPS only",
+  "calibration_cases": 76,
+  "hyperparameters_selected_before_2023": true
+}

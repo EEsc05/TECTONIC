@@ -1,0 +1,17 @@
+{
+  "ranking": {
+    "cnn": {
+      "cnn_coarse0_refine": 20.28613873389155,
+      "cnn_coarse0": 20.628613623892132
+    },
+    "cvae": {
+      "cvae_coarse3_refine": 14.636754080576265,
+      "cvae_coarse3": 14.702597064189606
+    },
+    "flow": {
+      "flow_coarse1_refine": 15.029969631429019,
+      "flow_coarse0_refine": 15.513637935737089
+    }
+  },
+  "selection": "All-lag3fold internal future forecast metrics; full-fit configs/seeds unchanged; no final-development assessment used"
+}

@@ -1,0 +1,37 @@
+{
+  "selected": {
+    "model_id": "context_SVR_residual_temporal",
+    "config": {
+      "id": "context_SVR_residual_temporal",
+      "family": "SVR",
+      "params": {
+        "C": 1.0,
+        "epsilon": 0.1,
+        "gamma": "scale"
+      },
+      "scaler": "standard",
+      "target": "residual_temporal",
+      "features": "full",
+      "max_rows": 1024
+    },
+    "mae": 19.549009476195682
+  },
+  "runner_up": {
+    "model_id": "context_SVR_residual_blend",
+    "config": {
+      "id": "context_SVR_residual_blend",
+      "family": "SVR",
+      "params": {
+        "C": 1.0,
+        "epsilon": 0.1,
+        "gamma": "scale"
+      },
+      "scaler": "standard",
+      "target": "residual_blend",
+      "features": "full",
+      "max_rows": 1024
+    },
+    "mae": 19.59620216117461
+  },
+  "selection": "2018–19 temporal plus region-held-out innerCV only"
+}

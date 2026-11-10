@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "correlation_arm": false,
+  "OOF_pair_gain_arm": true,
+  "criterion": "Registered OR: residual correlation<.95 OR equal-pair OOF gain>=.5%; initial correlation-only component archived"
+}

@@ -1,0 +1,75 @@
+{
+  "seed": 20261026,
+  "primary_model": "lowrank_r3_robust",
+  "primary_crop": 64,
+  "primary_horizon_acquisitions": 1,
+  "primary_metric": "MAE mm, equal weight to independent source-frame groups",
+  "histories": [
+    6,
+    12,
+    18
+  ],
+  "ranks": [
+    1,
+    3,
+    5
+  ],
+  "robust": [
+    true,
+    false
+  ],
+  "ridge_alpha": 4.0,
+  "crops": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "origin_stride_acquisitions": 4,
+  "max_history": 18,
+  "calendar_horizons_days": [
+    12,
+    24,
+    48
+  ],
+  "calendar_tolerance_days": 6,
+  "meaningful_change_mm": 5.0,
+  "validation_target_end_exclusive": "2019-01-01",
+  "validation_input_start": "2017-01-01",
+  "calibration_target_end_exclusive": "2018-01-01",
+  "test_origin_start": "2019-01-01",
+  "train": [
+    "etna",
+    "corbetti",
+    "erta_ale",
+    "kverkfjoll",
+    "lawu",
+    "tambora"
+  ],
+  "validation": [
+    "campi_flegrei",
+    "domuyo",
+    "laguna_del_maule"
+  ],
+  "test": [
+    "agung",
+    "rinjani",
+    "fujisan",
+    "galapagos",
+    "kilauea",
+    "reykjanes",
+    "taal"
+  ],
+  "shared_groups": {
+    "agung": "bali_lombok_frame",
+    "rinjani": "bali_lombok_frame",
+    "domuyo": "chile_083D",
+    "laguna_del_maule": "chile_083D"
+  },
+  "selection": "Finite 18 low-rank settings at 64 pixels, validation h1 frame-macro MAE; ties lexical. Freeze before test. Fixed original primary stays primary. No crop or fusion weight tuning.",
+  "uncertainty": "90% empirical residual quantile per model/crop/horizon from train-volcano targets strictly before 2018; evaluated on untouched volcanoes 2019 onward. Descriptive marginal pixel intervals; no exchangeability guarantee.",
+  "activity": "Independently sourced narrow episodes; all other dates unknown. Retrospective labels for analysis only, never predictors. No classifier without >=20 independent positive episodes with monitored negatives.",
+  "preservation": "Read previous code/checkpoints only. Compare SHA256 snapshot at completion.",
+  "operational_status": "Retrospective source-network inversion, as-of availability not demonstrated; LOS sign preserved, not vertical uplift.",
+  "zero_encoding": "Source has zero-filled water/unsupported cells without explicit mask; conservatively treat exact zero as missing per acquisition (including reference epoch). Never derive predictor support from future maps. Validity is provisional; exact zero real displacements also excluded."
+}

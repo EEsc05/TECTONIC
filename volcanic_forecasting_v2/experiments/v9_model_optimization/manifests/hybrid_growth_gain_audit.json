@@ -1,0 +1,21 @@
+{
+  "pairs": [
+    {
+      "pair": "01",
+      "OOF_gain": -0.0022974014282226562,
+      "pair_MAE": 16.330514907836914
+    },
+    {
+      "pair": "02",
+      "OOF_gain": -0.01369929313659668,
+      "pair_MAE": 16.516286849975586
+    },
+    {
+      "pair": "12",
+      "OOF_gain": 0.02003657817840576,
+      "pair_MAE": 16.544841766357422
+    }
+  ],
+  "passed": true,
+  "criterion": "Other registered arm: equal two-expert training OOF MAE gain>=.5%; no2023 labels used"
+}

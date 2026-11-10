@@ -1,0 +1,48 @@
+{
+  "version": "v9_optimization_v1",
+  "python": "3.13.13",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "torch": "2.9.1+cu128"
+  },
+  "source": {
+    "volcanic_forecasting_v2/src/research_v9/temporal.py": "d3554ac8b1050a239c2198516175672aeb1a0c678d2cb2fbf60cc0737e7acb03",
+    "volcanic_forecasting_v2/src/research_v9/protocol.py": "2c03a1c9cacc368f9383187f0660acff104d996b5d719b367ae49fcd9c7045db",
+    "volcanic_forecasting_v2/src/research_v9/sampling_diagnostics.py": "acc661af42a225349aa779144bd064a76ea6d58cc0b7641322480365a132c4cc",
+    "volcanic_forecasting_v2/src/research_v9/acceptance.py": "075672d5372b64f88603f86daae0ebcf31251a51a5619862e5eecfc67663632b",
+    "volcanic_forecasting_v2/src/research_v9/conventional.py": "312c2b57ad84986dc66826e64ccfd7bfef45dab08c378778d1cbf616d3f991da",
+    "volcanic_forecasting_v2/src/research_v9/modular.py": "1a9f51a20b77f9c1e9ac74c70fb27cd57c1f0548f51089d3e4567320416c816d",
+    "volcanic_forecasting_v2/src/research_v9/common.py": "53ba786550376c95a4d7e01d3aada9210912e24cc5e46f8fc428773238db1e82",
+    "volcanic_forecasting_v2/src/research_v9/report.py": "ba30c9fcbe4ef552f15f5fbcff24a5c2d0a9e614741198ef04b0236b449cdd2e",
+    "volcanic_forecasting_v2/src/research_v9/neural_review.py": "9ca694c76b3ab5f638af64bc03ff63d5f73979ae6d47cb68612703287d944858",
+    "volcanic_forecasting_v2/src/research_v9/probability.py": "eeefa5b12f41e830c27bf2af1807611df84b6a6031507c4be8eed4c305ae378d",
+    "volcanic_forecasting_v2/src/research_v9/representation_diagnostics.py": "a8af2cc98cfe3bc8c3963cd7b797988c6946badd06036904fec3dbdf0282bd0b",
+    "volcanic_forecasting_v2/src/research_v9/supplementary.py": "4f5e0da6168f930f12484e42a5715d6e49094be5e32f85a29a175dc4d1ccfdae",
+    "volcanic_forecasting_v2/src/research_v9/audit.py": "27ba86e21e101e2e88f903918040dc267a9fce0cc0e75d9a7679d0626edf09c9",
+    "volcanic_forecasting_v2/src/research_v9/assessment.py": "d5e8cffd4822fb8bf8fc87136f5e02733e03ebe0e7cd57920adeaeeacc2e4d3d",
+    "volcanic_forecasting_v2/src/research_v9/spatial.py": "7d8c79821b0efda4161d4a8a40f58c6509c668a806438430f03bddedce4ca65b",
+    "volcanic_forecasting_v2/src/research_v9/run.py": "1ddecbcbf24ea3513093e2d6f7686d84403473d36e853bc989c36247ce1855db",
+    "volcanic_forecasting_v2/src/research_v9/fusion_growth.py": "d7b2ecf39349283a76f16cec95832a5dd03b95d858a5415fb5ddbeb087d5e969",
+    "volcanic_forecasting_v2/src/research_v9/neural.py": "76a0ffd870f524af12980f513ee66371dd45d34c8f46ecfed206b2a8a549f639",
+    "volcanic_forecasting_v2/src/research_v9/importance.py": "913529faf77f8e65581d46698e43032bb06fd416cc1f0e6f70ababc5e8d7549c",
+    "volcanic_forecasting_v2/src/research_v9/features.py": "b170801598a156d6328e327d3ac17c7675c02cafaddcf1258eedb6f7a63b68d9",
+    "volcanic_forecasting_v2/src/research_v9/variance_search.py": "fc337958265c802a97c057f979a21b6bd9b5f4628b2a3fd7e7979595ee5b787d"
+  },
+  "parents": {
+    "historical_v3/frozen_reference_hashes.json": 703,
+    "historical_v3/primary_numerical_results_hashes.json": 163,
+    "research_v4/numerical_results_hashes.json": 205,
+    "research_v5/numerical_results_hashes.json": 208,
+    "V6_frozen": 179,
+    "V6_snapshot": 235,
+    "V7_frozen": 185,
+    "V8_frozen": 240
+  },
+  "Stage2": "Suspended",
+  "CPU_model": "13th Gen Intel(R) Core(TM) i9-13900H"
+}

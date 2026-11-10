@@ -1,0 +1,167 @@
+{
+  "finalists": {
+    "cnn": [
+      {
+        "config": {
+          "id": "cnn_coarse0",
+          "family": "cnn",
+          "width": 12,
+          "depth": 2,
+          "lr": 0.001,
+          "batch": 64,
+          "decay": 0.0001,
+          "loss": "mae",
+          "kernel": 3,
+          "residual": false,
+          "latent": 8,
+          "beta": 0.03,
+          "anneal": false,
+          "huber_delta": 1.0,
+          "normalization": "past",
+          "condition": "full",
+          "max_epochs": 20,
+          "patience": 6,
+          "conditional_prior": true,
+          "integrator": "euler"
+        },
+        "score": 12.810498237609863,
+        "full_epochs": 5
+      },
+      {
+        "config": {
+          "id": "cnn_coarse0_refine",
+          "family": "cnn",
+          "width": 12,
+          "depth": 2,
+          "lr": 0.0003,
+          "batch": 64,
+          "decay": 0.0001,
+          "loss": "mae",
+          "kernel": 3,
+          "residual": false,
+          "latent": 8,
+          "beta": 0.03,
+          "anneal": false,
+          "huber_delta": 1.0,
+          "normalization": "past",
+          "condition": "full",
+          "max_epochs": 40,
+          "patience": 8,
+          "conditional_prior": true,
+          "integrator": "euler"
+        },
+        "score": 12.830408096313477,
+        "full_epochs": 15
+      }
+    ],
+    "cvae": [
+      {
+        "config": {
+          "id": "cvae_coarse3_refine",
+          "family": "cvae",
+          "width": 64,
+          "depth": 2,
+          "lr": 8.999999999999999e-05,
+          "batch": 32,
+          "decay": 0.0001,
+          "loss": "huber",
+          "kernel": 3,
+          "residual": true,
+          "latent": 16,
+          "beta": 0.1,
+          "anneal": true,
+          "huber_delta": 0.5,
+          "normalization": "asinh",
+          "condition": "full",
+          "max_epochs": 40,
+          "patience": 8,
+          "conditional_prior": true,
+          "integrator": "heun"
+        },
+        "score": 9.502414188778586,
+        "full_epochs": 40
+      },
+      {
+        "config": {
+          "id": "cvae_coarse3",
+          "family": "cvae",
+          "width": 64,
+          "depth": 2,
+          "lr": 0.0003,
+          "batch": 32,
+          "decay": 0.0001,
+          "loss": "huber",
+          "kernel": 3,
+          "residual": true,
+          "latent": 16,
+          "beta": 0.1,
+          "anneal": true,
+          "huber_delta": 0.5,
+          "normalization": "asinh",
+          "condition": "full",
+          "max_epochs": 20,
+          "patience": 6,
+          "conditional_prior": true,
+          "integrator": "heun"
+        },
+        "score": 9.58713405359009,
+        "full_epochs": 15
+      }
+    ],
+    "flow": [
+      {
+        "config": {
+          "id": "flow_coarse0_refine",
+          "family": "flow",
+          "width": 64,
+          "depth": 1,
+          "lr": 0.003,
+          "batch": 64,
+          "decay": 0.0001,
+          "loss": "mae",
+          "kernel": 3,
+          "residual": false,
+          "latent": 8,
+          "beta": 0.03,
+          "anneal": false,
+          "huber_delta": 1.0,
+          "normalization": "past",
+          "condition": "full",
+          "max_epochs": 40,
+          "patience": 8,
+          "conditional_prior": true,
+          "integrator": "euler"
+        },
+        "score": 10.347048366460156,
+        "full_epochs": 20
+      },
+      {
+        "config": {
+          "id": "flow_coarse1_refine",
+          "family": "flow",
+          "width": 128,
+          "depth": 2,
+          "lr": 8.999999999999999e-05,
+          "batch": 32,
+          "decay": 0.001,
+          "loss": "huber",
+          "kernel": 3,
+          "residual": true,
+          "latent": 16,
+          "beta": 0.1,
+          "anneal": false,
+          "huber_delta": 1.0,
+          "normalization": "past",
+          "condition": "full",
+          "max_epochs": 40,
+          "patience": 8,
+          "conditional_prior": true,
+          "integrator": "euler"
+        },
+        "score": 10.6227703730494,
+        "full_epochs": 15
+      }
+    ]
+  },
+  "selection": "Training-internal future forecast scores only, two configurations x3full training seeds per family; no2023 tuning"
+}

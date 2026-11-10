@@ -1,0 +1,25 @@
+model_id,training_seconds,epochs,best_epoch,device,parameters,full_fit_early_stop,inference_seconds,cases
+cnn_coarse0_seed20261206,0.3086431069968967,5.0,4.0,cuda,3817.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cnn_coarse0_seed20261206,,,,cuda,,,0.08005741799570387,1714.0
+cnn_coarse0_seed20261207,0.29776018100528745,5.0,4.0,cuda,3817.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cnn_coarse0_seed20261207,,,,cuda,,,0.06944279000163078,1714.0
+cnn_coarse0_seed20261208,0.2602769549994264,5.0,4.0,cuda,3817.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cnn_coarse0_seed20261208,,,,cuda,,,0.06808090599952266,1714.0
+cnn_coarse0_refine_seed20261206,0.8586369899931015,15.0,14.0,cuda,3817.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cnn_coarse0_refine_seed20261206,,,,cuda,,,0.0686920750013087,1714.0
+cnn_coarse0_refine_seed20261207,0.8534722799959127,15.0,14.0,cuda,3817.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cnn_coarse0_refine_seed20261207,,,,cuda,,,0.06574216100125341,1714.0
+cnn_coarse0_refine_seed20261208,0.7836683420027839,15.0,14.0,cuda,3817.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cnn_coarse0_refine_seed20261208,,,,cuda,,,0.06836963899695547,1714.0
+cvae_coarse3_refine_seed20261206,7.658693831006531,40.0,39.0,cuda,40576.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cvae_coarse3_refine_seed20261207,7.671985951004899,40.0,39.0,cuda,40576.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cvae_coarse3_refine_seed20261208,7.389954276004573,40.0,39.0,cuda,40576.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cvae_coarse3_seed20261206,2.812844063002558,15.0,14.0,cuda,40576.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cvae_coarse3_seed20261207,2.8156398389983224,15.0,14.0,cuda,40576.0,Fixed internal-best epoch count; no2022/2023 labels,,
+cvae_coarse3_seed20261208,2.8203237729976536,15.0,14.0,cuda,40576.0,Fixed internal-best epoch count; no2022/2023 labels,,
+flow_coarse0_refine_seed20261206,0.9172301270009484,20.0,19.0,cuda,13312.0,Fixed internal-best epoch count; no2022/2023 labels,,
+flow_coarse0_refine_seed20261207,0.8575271109948517,20.0,19.0,cuda,13312.0,Fixed internal-best epoch count; no2022/2023 labels,,
+flow_coarse0_refine_seed20261208,0.7961377340034232,20.0,19.0,cuda,13312.0,Fixed internal-best epoch count; no2022/2023 labels,,
+flow_coarse1_refine_seed20261206,1.3488494220000575,15.0,14.0,cuda,43072.0,Fixed internal-best epoch count; no2022/2023 labels,,
+flow_coarse1_refine_seed20261207,1.2886815610036138,15.0,14.0,cuda,43072.0,Fixed internal-best epoch count; no2022/2023 labels,,
+flow_coarse1_refine_seed20261208,1.2833569219947094,15.0,14.0,cuda,43072.0,Fixed internal-best epoch count; no2022/2023 labels,,

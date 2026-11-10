@@ -1,0 +1,607 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "57a8ad0e62346f7b0f2e261d59a7b90f1310043424bcb9d229208f183f1940d9"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1072,
+    "sha256": "b6d98fa0905adc44cabfc8771226fb98bacd16b79d06fb3345041e4e364aefbd"
+  },
+  {
+    "path": "README.rst",
+    "bytes": 3181,
+    "sha256": "17a84e7d22b1f111e116b24066006974a0b2e7d414c4601921beef91dabd1bfe"
+  },
+  {
+    "path": "selected_models/.gitignore",
+    "bytes": 24,
+    "sha256": "150013329e71880dfa4486d9ff2c563ce925934be8c6ccf8771b347e0e17e65c"
+  },
+  {
+    "path": "selected_models/README.md",
+    "bytes": 5134,
+    "sha256": "05ace49687f03a5d648e71946d02446a9424f281a89831c931fdba9c02ef03e3"
+  },
+  {
+    "path": "selected_models/__init__.py",
+    "bytes": 67,
+    "sha256": "54ab27fbdc43e1aefeba4039258f11420290f8d9ca7bd38647afcbdb022123d7"
+  },
+  {
+    "path": "selected_models/artifacts/four_horizon_weights.json",
+    "bytes": 2214,
+    "sha256": "93d83bdce4770a5f060339d1211a7824cb29c6059f8b239a2d5020af7465de63"
+  },
+  {
+    "path": "selected_models/artifacts/v9_points.npz",
+    "bytes": 27625788,
+    "sha256": "1e17d19dd9d632329c6286d1ae83f778718d91ba4bef38ebefc99cfc120436a6"
+  },
+  {
+    "path": "selected_models/data/original64/agung.npz",
+    "bytes": 2547941,
+    "sha256": "2b8412dc990ac3f73e8b19b3481975137e0ed47d5236fe42e376b3c1e0d1c7ff"
+  },
+  {
+    "path": "selected_models/data/original64/fujisan.npz",
+    "bytes": 1757097,
+    "sha256": "fe5fdc69ed8f4a5eab3dfb3919c7356ccd32fdb69d8089f046ad2e4e509168cb"
+  },
+  {
+    "path": "selected_models/data/original64/galapagos.npz",
+    "bytes": 2495301,
+    "sha256": "d00d9a1129d6a392cdf3a4420d89d840908a7e31b3e1e7c89df7ca1aba6954e4"
+  },
+  {
+    "path": "selected_models/data/original64/inventory.json",
+    "bytes": 12456,
+    "sha256": "2f39c94e293b956c661a25cadb88ea3305a85299f7fffb5ffe0708f028953a4d"
+  },
+  {
+    "path": "selected_models/data/original64/kilauea.npz",
+    "bytes": 3276456,
+    "sha256": "71954b1c90eed352b533e178c8201afb14e72808fa4ab1e28adf5d6b639b1a73"
+  },
+  {
+    "path": "selected_models/data/original64/reykjanes.npz",
+    "bytes": 3028489,
+    "sha256": "80e5061fb6de1045482e8daa8f9e1a16dc50936d39e21ceb37cf2e9d52262f1d"
+  },
+  {
+    "path": "selected_models/data/original64/rinjani.npz",
+    "bytes": 2647261,
+    "sha256": "53dcfc2e3eb417c5aaa9f0a69eec9230b5ba495df27b93390e6489fa9e69dabb"
+  },
+  {
+    "path": "selected_models/data/original64/taal.npz",
+    "bytes": 1302993,
+    "sha256": "ff3b7b3def9adc0baf610fa3188eb76d75e8028b686391b42e13a9cd326e2913"
+  },
+  {
+    "path": "selected_models/original_lowrank.py",
+    "bytes": 4674,
+    "sha256": "758b0143076187f8f6739801864052866f5761fc91c6c860070630b57b76ec53"
+  },
+  {
+    "path": "selected_models/provenance.json",
+    "bytes": 28489,
+    "sha256": "b198366b789c8f2995821ac5c77b99c7306650f08a6d20299df31eca04bad61b"
+  },
+  {
+    "path": "selected_models/reproduce.py",
+    "bytes": 8371,
+    "sha256": "eebf135c185643c438012233b11d4f392be70856069659768bc643f2c5ed57ac"
+  },
+  {
+    "path": "selected_models/requirements-lock.txt",
+    "bytes": 101,
+    "sha256": "efc3c20bd661c349297aeafa166724f1bc4e05f46a5679fc1705c12a29132480"
+  },
+  {
+    "path": "selected_models/requirements.txt",
+    "bytes": 123,
+    "sha256": "cad10e241264f45fa7e8612bb479fa24845405086a1b0626bf285f1719e94dcf"
+  },
+  {
+    "path": "selected_models/results/cvae_seed_stability.csv",
+    "bytes": 659,
+    "sha256": "3dcb5bc8db35c41a9e119ae4bf11e4572e6c1f23181178c1e2fba94ee258203a"
+  },
+  {
+    "path": "selected_models/results/original64_summary.csv",
+    "bytes": 2408,
+    "sha256": "0d359e6e04babebfa91352bccbafcae2b2bec9f7aff4ad3a4ec7b32c43c36ce4"
+  },
+  {
+    "path": "selected_models/results/replay_runtime.csv",
+    "bytes": 426,
+    "sha256": "b74ad18858594bdde47fb03949468d2d79915790e81a2bb48dcf2bb0ae51a679"
+  },
+  {
+    "path": "selected_models/results/v9_point_metrics.csv",
+    "bytes": 657395,
+    "sha256": "5d4c693c0b7b8e905677f5d74d693c6403a28ac67ebfe47865e9847fceddce4e"
+  },
+  {
+    "path": "selected_models/validation.json",
+    "bytes": 558,
+    "sha256": "472d47eb99577f58131dc90d906f4d4d8c26a476ecfb4b51066a8a9cddfa3a1c"
+  },
+  {
+    "path": "volcanic_experiment/data/LiCSBAS_README.txt",
+    "bytes": 5425,
+    "sha256": "73bd9ee28e303d68313af450857c3e604c5f4bc20cb897b98e0e66756a92009e"
+  },
+  {
+    "path": "volcanic_experiment/data/crop_footprints.csv",
+    "bytes": 6292,
+    "sha256": "d56e3ec435ceafd0419bf5249c5b6d5a1a0ad2a82e851cc3149134232a8ada83"
+  },
+  {
+    "path": "volcanic_experiment/data/dataset_inventory.csv",
+    "bytes": 9126,
+    "sha256": "d964958c68db5e186159105fb54bc29e7a54634a6b1efac6d6fd09c66c15158b"
+  },
+  {
+    "path": "volcanic_experiment/data/inventory.json",
+    "bytes": 24947,
+    "sha256": "5311e2ac12205d068f2da3489c607b6e07dbdef3e99219af1461a4c0ac0c7cc2"
+  },
+  {
+    "path": "volcanic_experiment/data/record_7213408.json",
+    "bytes": 4413,
+    "sha256": "41af7acd11327b6ca4d9147b637667ac204ef21a000cabfa10afe384c00959cc"
+  },
+  {
+    "path": "volcanic_experiment/dataset_report.md",
+    "bytes": 7196,
+    "sha256": "b3d27bb47f900f23d5638b62f3bae4cded7839ce958a7fa58f455c715cc46692"
+  },
+  {
+    "path": "volcanic_experiment/findings.md",
+    "bytes": 16737,
+    "sha256": "1ddf48437c6b749f6ac0f089c0e7be96b73bbc79da0a2185a030bab6b39338f5"
+  },
+  {
+    "path": "volcanic_experiment/model_confidence_intervals.csv",
+    "bytes": 1102,
+    "sha256": "12ab1d827652a824563e75a02044e8ef4904f5aefc216ac4389b872a11fd5db5"
+  },
+  {
+    "path": "volcanic_experiment/model_runtimes.csv",
+    "bytes": 1323,
+    "sha256": "220d1f989189aa68998d9b2fde5ab7202592ed5039f6d8455aa6903704711400"
+  },
+  {
+    "path": "volcanic_experiment/paired_comparisons.csv",
+    "bytes": 1439,
+    "sha256": "453a7a014185cc62ea5c210fcaa1caeef67d87fa7943604ac1cff61db93f1513"
+  },
+  {
+    "path": "volcanic_experiment/protocol.json",
+    "bytes": 2418,
+    "sha256": "0b601c5c26b63ea490e5bdf4de0cc92bee2acf0d1861011f8dfbd4ed5a28834d"
+  },
+  {
+    "path": "volcanic_experiment/scripts/common.py",
+    "bytes": 3402,
+    "sha256": "f6ab77b8a091553067e5a3e01b37fbdae9018edf35d0da13a61eaa71c312be9f"
+  },
+  {
+    "path": "volcanic_experiment/scripts/engines.py",
+    "bytes": 3617,
+    "sha256": "750f209095d535817741f7066f01551b60dfe23c4d9b64b9cd05b3a17eb2f6eb"
+  },
+  {
+    "path": "volcanic_experiment/scripts/metrics.py",
+    "bytes": 3210,
+    "sha256": "30e8c3e52d44bcd720f5b9ce433a555754a4b161be820fd9ebf10cf7dfbf917e"
+  },
+  {
+    "path": "volcanic_experiment/test_summary.csv",
+    "bytes": 65882,
+    "sha256": "e49e87fd2a3a514a082c3467e696437debe7e42dbb2ec50108682a70f23ff0a5"
+  },
+  {
+    "path": "volcanic_forecasting_v2/configs/protocol.json",
+    "bytes": 4459,
+    "sha256": "7d07aa3aab97dc8a25a9072d259b8385342571a7c0d9d1ca99e395f1ffa69d6a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v6_global_volcanic_forecasting/runs/v6_global_v2/manifests/sources.json",
+    "bytes": 40586,
+    "sha256": "32b5af513e55922080b31219dc017297e181ba57dd9eff1ddfb5252e8678fb4e"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v6_global_volcanic_forecasting/runs/v6_global_v2/preprocessing/examples.csv",
+    "bytes": 323411,
+    "sha256": "431e14d0a0328704dd0d333b79f8905a957accccf068aa67cc8b18fbfb8a067b"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v6_global_volcanic_forecasting/runs/v6_global_v2/preprocessing/examples.npz",
+    "bytes": 9798079,
+    "sha256": "cbbafeb0422756d539c7ac5e63f4a5582dd7339916a2ace12f30d4523ac33fcc"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/README.md",
+    "bytes": 932,
+    "sha256": "41b8e019474493875d6c4e80f583f63b280b4763563213ffab743f332cc5fb8a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/context_SVR_residual_temporal.joblib",
+    "bytes": 277732,
+    "sha256": "39f6e771f6cb34fd0f2cdf038f77c126694a233e9d56a74a3f129ed69d2440b9"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/cvae_coarse3_seed20261206.pt",
+    "bytes": 169708,
+    "sha256": "5ee2624aa6314ee26ffb709e809747d91f17bd72ec8abe694c8d367e123f4c4a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/cvae_coarse3_seed20261206_calibration.json",
+    "bytes": 124,
+    "sha256": "33b4cfe90d0abcddf08a15797c6b48321e2ca726131b1d8b021a18370b33b41d"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/cvae_coarse3_seed20261207.pt",
+    "bytes": 169708,
+    "sha256": "24023f3d8b194eeb340ec8d7812b1fa30109dc90a118e7c62071df3c4ec0694a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/cvae_coarse3_seed20261207_calibration.json",
+    "bytes": 124,
+    "sha256": "33b4cfe90d0abcddf08a15797c6b48321e2ca726131b1d8b021a18370b33b41d"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/cvae_coarse3_seed20261208.pt",
+    "bytes": 169708,
+    "sha256": "28c7c8403ebc09b669fa84125736ba5e53d991718ae0a0fe41c362a385b0cbf6"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/cvae_coarse3_seed20261208_calibration.json",
+    "bytes": 124,
+    "sha256": "33b4cfe90d0abcddf08a15797c6b48321e2ca726131b1d8b021a18370b33b41d"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/fusion_recipes.json",
+    "bytes": 838,
+    "sha256": "3c0e74989c6dc49459572b4e9937fffaf9b6989cc03826e94baa4e3f4a7c54b3"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/neural_preprocessor.joblib",
+    "bytes": 70972,
+    "sha256": "50e2d1a4576772eb663d8332b95370ac3d436aac1bbc73f9df528973459be3d4"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/quality_HGB_relative.joblib",
+    "bytes": 598082,
+    "sha256": "01d38046fbffd5af886c0a60f3e6bbeb4b8ab2df278127abf1a046ec1c110d45"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/checkpoints/spatial_block16_linear.joblib",
+    "bytes": 137265,
+    "sha256": "682da0ee39fb75fab335bedb8d7d185e9f9db00a0ca156c0cf9463ff6e98556e"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/assessment_runtime.csv",
+    "bytes": 4672,
+    "sha256": "d1797d5d8f6d6d70d8c180abfd8b155e3db00fb0219c2247821d97d5a31e119e"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/modular_runtime.csv",
+    "bytes": 124,
+    "sha256": "44e524adaaab2730485cb6555b29be12d4a352eb4882bfa745490e615f8846b3"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/neural_runtime.csv",
+    "bytes": 2757,
+    "sha256": "b2c716f410473dc7bb23078d32d8e695802964937c6e833e68542026bbd2b760"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/paired_cluster_uncertainty.csv",
+    "bytes": 121758,
+    "sha256": "6a1c51ccc42553fe1d710f7531251412d36b7cd9f063dc2ccaeb6dc4a51a90f0"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/point_macro.csv",
+    "bytes": 27020,
+    "sha256": "a2ade67435b377e7b8cc867cc7c099bf0882621358dad3acc1466f354bd6f54a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/seed_metrics.csv",
+    "bytes": 9610,
+    "sha256": "3bcabbb4d6a35c87750053202acb45289e6bf50595a4827be8256f5e6c426921"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/seed_stability.csv",
+    "bytes": 2529,
+    "sha256": "8ea7f94202fd705926dca3d6b2fcf0aa19f21652b47d232faa87ccd6479efe9e"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/diagnostics/temporal_runtime.csv",
+    "bytes": 1246,
+    "sha256": "5dbe2bb3f261ad64d97dc36b4539096bbd10478321ae7f4002c96b0c05c070e1"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/figures/branch_error_correlations.png",
+    "bytes": 33756,
+    "sha256": "2dbdc4a1391356b8559d6633dbd55441e58d44e8a88cf817a8b378bd11c233f0"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/figures/two_three_four_comparison.png",
+    "bytes": 86384,
+    "sha256": "0fa6a49613fc13d680c713b04eb500f9c3e857efd042679d392f1a8d533eddec"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/final_summary.md",
+    "bytes": 20913,
+    "sha256": "c1a22cb33c208d86842f3685cfcf069c3eb7eedb868025a1aa1b38a8d4a72788"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/context_selection.json",
+    "bytes": 862,
+    "sha256": "2aa82f88cc09f7f2e7fb8f241caf00af20fc564b3415baaed263cd830dd684de"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/effective_modular_shortlist.json",
+    "bytes": 836,
+    "sha256": "f5055337c28f36bd7c9225ae8ba96a1a48ccc13c4e8614275709fdc0eed6d3ee"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/execution_environment.json",
+    "bytes": 3480,
+    "sha256": "780d04a0fdac2bd76646572a001e7a9000c748e0626a67fce1f0013645bf28a3"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/finalist_lock.json",
+    "bytes": 14985,
+    "sha256": "c5a10fbc5cdcc4155e285af2c5c46671c3bd3ec97d2f6fb8efb3ebf60fd6ccb8"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/hybrid_growth_gain_audit.json",
+    "bytes": 472,
+    "sha256": "05d148271716ca8679a3175ebaccac89b2f9b84dbbfcdd3a803f2b45eacce701"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/hybrid_growth_gate.json",
+    "bytes": 208,
+    "sha256": "d9530a2fadcb8beab6097064b547d37bebb374739618b8160ba4c6081ab604d6"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/neural_alllag_selection.json",
+    "bytes": 493,
+    "sha256": "153ff23923b47297ed7e704475a31f036da59aabcfd1a46154e22f1aa93a7199"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/neural_selection.json",
+    "bytes": 4215,
+    "sha256": "202364c805c539d7ea0d1600c499c38cd1fec3c1f996c87985c9cde7f906769a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/probability_lock.json",
+    "bytes": 1749,
+    "sha256": "83a0e1959e7f69b3ba368232d3c5bc12536f5dd66e4a561fa41cce88f53a3a04"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/quality_selection.json",
+    "bytes": 3324,
+    "sha256": "c47e71bf2bba662c5efa0a8a187e227065b496fc7925e0c3e215f8315feb68ea"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/research_protocol.json",
+    "bytes": 2787,
+    "sha256": "3260577826cc84e7569688dddd040fa4f4d3ff68a8193ee4d977b476d7b22917"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/spatial_selection.json",
+    "bytes": 6067,
+    "sha256": "befd6204c6036890466886fbc42b03f7609a8338652bd48318b0db217d4beb28"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/temporal_selection.json",
+    "bytes": 6097,
+    "sha256": "5283a00b3ee98fff7bdbea60efe9cbb508049cf141835424b5bf3ef9e8da9531"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/manifests/thresholds.json",
+    "bytes": 82,
+    "sha256": "fbe19cfed578d46b6fd348f4305239d4125c5b41115adce25fc82e3c7a039297"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261206_draws.npz",
+    "bytes": 76003366,
+    "sha256": "a7d6ae26636107908aaf141e9794fb4dea13b1db41cc5af40ca189bd783665b3"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261206_sample_maps.npz",
+    "bytes": 118511,
+    "sha256": "f0b54e296ae1cdf5beef771369d7114352b6c7715ba306b1e56fd344f35a49e2"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261206_scored.csv",
+    "bytes": 828690,
+    "sha256": "79d739a2cb334e3cb83f992eb209b31785900bd0f361e38b71ca0dedbd208916"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261207_draws.npz",
+    "bytes": 76014327,
+    "sha256": "d2c2b63ce0e39d52a19068207d0b326f3a2763ccdbb196fbbfe5128409adae0a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261207_sample_maps.npz",
+    "bytes": 118509,
+    "sha256": "0e834c88e5d6d21c6dce68f6fab83f0918d9f8688bef22fa02f8335e7a40efbc"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261207_scored.csv",
+    "bytes": 828742,
+    "sha256": "4fab9fc9b3ba7df6522a45e7d2033dc2abadab33a29d7edccaabc352b338d22a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261208_draws.npz",
+    "bytes": 76008998,
+    "sha256": "5aff10a3e009ec7d21597885e351afea451a103f86d58d4ce3363c76b30fdc8e"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261208_sample_maps.npz",
+    "bytes": 118546,
+    "sha256": "a9bdd706532d61697e8aeb5dbb28b6d691f9dbec3a66d888c387ce9709403167"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/predictions/cvae_coarse3_seed20261208_scored.csv",
+    "bytes": 828424,
+    "sha256": "30d9d62432b5c28541482cf03d97f9c7c1ec16f1cc639053a1bf5b04794ab008"
+  },
+  {
+    "path": "volcanic_forecasting_v2/experiments/v9_model_optimization/research_protocol.md",
+    "bytes": 1296,
+    "sha256": "4622866589c33f17cca616cfea4926a44991bd7cd5e6329217b9ed980e35b274"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/common.py",
+    "bytes": 2496,
+    "sha256": "c1b34dbb212f344d4b1adf793005cb235ab0e9eb83025000533e943ef38e8431"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/data/dataset.py",
+    "bytes": 5682,
+    "sha256": "cae3fd25a394848d521fe8121a1e0f28ed0b65d99244e8f76370ae75d1a67341"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/historical_v3/common.py",
+    "bytes": 3435,
+    "sha256": "b80d51fdabf9b24f0cc4f9fb2605ccf1b53bb1cf9398ff093422aee178c64fa8"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/historical_v3/generative.py",
+    "bytes": 12769,
+    "sha256": "dc53ef5573d14d341daeb91cd62bf7f0a8fd0f86fbae9b061b873f7ec6b180c0"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/historical_v3/population.py",
+    "bytes": 9188,
+    "sha256": "81f5854ac7cb2c2a0ff4dca5955d41fb203b7e1b9aa416798c9c81a2be331cf1"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/historical_v3/stage1.py",
+    "bytes": 9426,
+    "sha256": "277f9be3c6eb0c5256e627a55105f88df7bd979d43601918729a00ecc15783a8"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v4/common.py",
+    "bytes": 1696,
+    "sha256": "08dee422f2df2db27b470e9b88197d592c474639498006e85ba29e635e8c1006"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v4/neural.py",
+    "bytes": 14496,
+    "sha256": "b41a4fe371d0321fd44cc7edf321650aced7fadb6968047d5ff78ed1e846aa40"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v4/representation.py",
+    "bytes": 12250,
+    "sha256": "e20f9437fdf65f0ce2ae4a013142c38f2544b12d794fa29b06790c610d797257"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v6/benchmark.py",
+    "bytes": 12132,
+    "sha256": "de84d2c4138b5587a01bd6513f778c14b78b26d47417b412a7baa6a8b8fb496c"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v6/common.py",
+    "bytes": 1699,
+    "sha256": "7f6f3985db9fd68a78fe7368c68970a3ab2e54609972de60240b2772957b8e2a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v6/data.py",
+    "bytes": 2313,
+    "sha256": "0839cb9e2fa7b688f84aebc21e0d15fef0b2d84005432c72c62037b3fdf25e38"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v6/generative.py",
+    "bytes": 11283,
+    "sha256": "fa0268e396e1fb818767ff24966ea00144cc0555b0ed1774a40b24cbb56abfed"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v7/common.py",
+    "bytes": 2518,
+    "sha256": "c2f28eb3757799bcf4a124064534c19fa09e72396b22e37157f952ed71649606"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v7/point.py",
+    "bytes": 8621,
+    "sha256": "551255ccdd57165ba62d98f1f6a318ace22a8d672925cbbb54b9dd521e6e4d1a"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v7/probability.py",
+    "bytes": 17651,
+    "sha256": "db1abfc2f20bda8a1515001d36de80cf6f594d20d3ddb05cb7cb0ba8797fbe64"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v8/common.py",
+    "bytes": 1860,
+    "sha256": "f4baa80ebb51e51cd1855aac65a8b7741e1e1afcd7a7ece87acc4ecb2cd361aa"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/assessment.py",
+    "bytes": 9810,
+    "sha256": "d5e8cffd4822fb8bf8fc87136f5e02733e03ebe0e7cd57920adeaeeacc2e4d3d"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/common.py",
+    "bytes": 2635,
+    "sha256": "53ba786550376c95a4d7e01d3aada9210912e24cc5e46f8fc428773238db1e82"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/conventional.py",
+    "bytes": 8061,
+    "sha256": "312c2b57ad84986dc66826e64ccfd7bfef45dab08c378778d1cbf616d3f991da"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/features.py",
+    "bytes": 2533,
+    "sha256": "b170801598a156d6328e327d3ac17c7675c02cafaddcf1258eedb6f7a63b68d9"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/fusion_growth.py",
+    "bytes": 5042,
+    "sha256": "d7b2ecf39349283a76f16cec95832a5dd03b95d858a5415fb5ddbeb087d5e969"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/neural.py",
+    "bytes": 12654,
+    "sha256": "76a0ffd870f524af12980f513ee66371dd45d34c8f46ecfed206b2a8a549f639"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/probability.py",
+    "bytes": 12584,
+    "sha256": "eeefa5b12f41e830c27bf2af1807611df84b6a6031507c4be8eed4c305ae378d"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/protocol.py",
+    "bytes": 8368,
+    "sha256": "2c03a1c9cacc368f9383187f0660acff104d996b5d719b367ae49fcd9c7045db"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/spatial.py",
+    "bytes": 8972,
+    "sha256": "7d8c79821b0efda4161d4a8a40f58c6509c668a806438430f03bddedce4ca65b"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/temporal.py",
+    "bytes": 3440,
+    "sha256": "d3554ac8b1050a239c2198516175672aeb1a0c678d2cb2fbf60cc0737e7acb03"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/research_v9/variance_search.py",
+    "bytes": 2408,
+    "sha256": "fc337958265c802a97c057f979a21b6bd9b5f4628b2a3fd7e7979595ee5b787d"
+  },
+  {
+    "path": "volcanic_forecasting_v2/src/stage1/models.py",
+    "bytes": 4698,
+    "sha256": "551f591e1f0ea321ba3b7cda5535becf857e920585d88b5d20d698ac8f3199de"
+  }
+]

@@ -1,0 +1,2 @@
+model_id,training_seconds,inference_seconds,device
+context_SVR_residual_temporal,0.16705587799515342,116.69414568200591,CPU

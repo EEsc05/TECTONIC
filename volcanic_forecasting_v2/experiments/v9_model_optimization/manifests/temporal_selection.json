@@ -1,0 +1,304 @@
+{
+  "selected": [
+    "EMA_h30_trend0",
+    "Kalman_10"
+  ],
+  "best": "EMA_h30_trend0",
+  "configs": {
+    "EMA_h7_trend0": {
+      "id": "EMA_h7_trend0",
+      "family": "EMA",
+      "half": 7,
+      "window": 2,
+      "trend": false,
+      "damping": 30
+    },
+    "EMA_h7_trend1": {
+      "id": "EMA_h7_trend1",
+      "family": "EMA",
+      "half": 7,
+      "window": 2,
+      "trend": true,
+      "damping": 30
+    },
+    "EMA_h15_trend0": {
+      "id": "EMA_h15_trend0",
+      "family": "EMA",
+      "half": 15,
+      "window": 4,
+      "trend": false,
+      "damping": 90
+    },
+    "EMA_h15_trend1": {
+      "id": "EMA_h15_trend1",
+      "family": "EMA",
+      "half": 15,
+      "window": 4,
+      "trend": true,
+      "damping": 90
+    },
+    "EMA_h30_trend0": {
+      "id": "EMA_h30_trend0",
+      "family": "EMA",
+      "half": 30,
+      "window": 6,
+      "trend": false,
+      "damping": 180
+    },
+    "EMA_h30_trend1": {
+      "id": "EMA_h30_trend1",
+      "family": "EMA",
+      "half": 30,
+      "window": 6,
+      "trend": true,
+      "damping": 180
+    },
+    "EMA_h60_trend0": {
+      "id": "EMA_h60_trend0",
+      "family": "EMA",
+      "half": 60,
+      "window": 2,
+      "trend": false,
+      "damping": 30
+    },
+    "EMA_h60_trend1": {
+      "id": "EMA_h60_trend1",
+      "family": "EMA",
+      "half": 60,
+      "window": 2,
+      "trend": true,
+      "damping": 30
+    },
+    "EMA_h120_trend0": {
+      "id": "EMA_h120_trend0",
+      "family": "EMA",
+      "half": 120,
+      "window": 4,
+      "trend": false,
+      "damping": 90
+    },
+    "EMA_h120_trend1": {
+      "id": "EMA_h120_trend1",
+      "family": "EMA",
+      "half": 120,
+      "window": 4,
+      "trend": true,
+      "damping": 90
+    },
+    "EMA_h240_trend0": {
+      "id": "EMA_h240_trend0",
+      "family": "EMA",
+      "half": 240,
+      "window": 6,
+      "trend": false,
+      "damping": 180
+    },
+    "EMA_h240_trend1": {
+      "id": "EMA_h240_trend1",
+      "family": "EMA",
+      "half": 240,
+      "window": 6,
+      "trend": true,
+      "damping": 180
+    },
+    "Kalman_0": {
+      "id": "Kalman_0",
+      "family": "Kalman",
+      "q": 0.001,
+      "measurement": 0.5,
+      "initial": 1,
+      "clip": 2,
+      "state": "level",
+      "damping": 30,
+      "window": 6
+    },
+    "Kalman_1": {
+      "id": "Kalman_1",
+      "family": "Kalman",
+      "q": 0.01,
+      "measurement": 2,
+      "initial": 1,
+      "clip": 2,
+      "state": "trend",
+      "damping": 30,
+      "window": 6
+    },
+    "Kalman_2": {
+      "id": "Kalman_2",
+      "family": "Kalman",
+      "q": 0.1,
+      "measurement": 0.5,
+      "initial": 10,
+      "clip": 2,
+      "state": "level",
+      "damping": 30,
+      "window": 6
+    },
+    "Kalman_3": {
+      "id": "Kalman_3",
+      "family": "Kalman",
+      "q": 0.001,
+      "measurement": 2,
+      "initial": 10,
+      "clip": 4,
+      "state": "trend",
+      "damping": 30,
+      "window": 6
+    },
+    "Kalman_4": {
+      "id": "Kalman_4",
+      "family": "Kalman",
+      "q": 0.01,
+      "measurement": 0.5,
+      "initial": 1,
+      "clip": 4,
+      "state": "level",
+      "damping": 30,
+      "window": 6
+    },
+    "Kalman_5": {
+      "id": "Kalman_5",
+      "family": "Kalman",
+      "q": 0.1,
+      "measurement": 2,
+      "initial": 1,
+      "clip": 4,
+      "state": "trend",
+      "damping": 30,
+      "window": 6
+    },
+    "Kalman_6": {
+      "id": "Kalman_6",
+      "family": "Kalman",
+      "q": 0.001,
+      "measurement": 0.5,
+      "initial": 10,
+      "clip": 2,
+      "state": "level",
+      "damping": 90,
+      "window": 6
+    },
+    "Kalman_7": {
+      "id": "Kalman_7",
+      "family": "Kalman",
+      "q": 0.01,
+      "measurement": 2,
+      "initial": 10,
+      "clip": 2,
+      "state": "trend",
+      "damping": 90,
+      "window": 6
+    },
+    "Kalman_8": {
+      "id": "Kalman_8",
+      "family": "Kalman",
+      "q": 0.1,
+      "measurement": 0.5,
+      "initial": 1,
+      "clip": 2,
+      "state": "level",
+      "damping": 90,
+      "window": 6
+    },
+    "Kalman_9": {
+      "id": "Kalman_9",
+      "family": "Kalman",
+      "q": 0.001,
+      "measurement": 2,
+      "initial": 1,
+      "clip": 4,
+      "state": "trend",
+      "damping": 90,
+      "window": 6
+    },
+    "Kalman_10": {
+      "id": "Kalman_10",
+      "family": "Kalman",
+      "q": 0.01,
+      "measurement": 0.5,
+      "initial": 10,
+      "clip": 4,
+      "state": "level",
+      "damping": 90,
+      "window": 6
+    },
+    "Kalman_11": {
+      "id": "Kalman_11",
+      "family": "Kalman",
+      "q": 0.1,
+      "measurement": 2,
+      "initial": 10,
+      "clip": 4,
+      "state": "trend",
+      "damping": 90,
+      "window": 6
+    },
+    "Kalman_12": {
+      "id": "Kalman_12",
+      "family": "Kalman",
+      "q": 0.001,
+      "measurement": 0.5,
+      "initial": 1,
+      "clip": 2,
+      "state": "level",
+      "damping": 180,
+      "window": 6
+    },
+    "Kalman_13": {
+      "id": "Kalman_13",
+      "family": "Kalman",
+      "q": 0.01,
+      "measurement": 2,
+      "initial": 1,
+      "clip": 2,
+      "state": "trend",
+      "damping": 180,
+      "window": 6
+    },
+    "Kalman_14": {
+      "id": "Kalman_14",
+      "family": "Kalman",
+      "q": 0.1,
+      "measurement": 0.5,
+      "initial": 10,
+      "clip": 2,
+      "state": "level",
+      "damping": 180,
+      "window": 6
+    },
+    "Kalman_15": {
+      "id": "Kalman_15",
+      "family": "Kalman",
+      "q": 0.001,
+      "measurement": 2,
+      "initial": 10,
+      "clip": 4,
+      "state": "trend",
+      "damping": 180,
+      "window": 6
+    },
+    "Kalman_16": {
+      "id": "Kalman_16",
+      "family": "Kalman",
+      "q": 0.01,
+      "measurement": 0.5,
+      "initial": 1,
+      "clip": 4,
+      "state": "level",
+      "damping": 180,
+      "window": 6
+    },
+    "Kalman_17": {
+      "id": "Kalman_17",
+      "family": "Kalman",
+      "q": 0.1,
+      "measurement": 2,
+      "initial": 1,
+      "clip": 4,
+      "state": "trend",
+      "damping": 180,
+      "window": 6
+    }
+  },
+  "selection": "Equal fold-weighted training-internal volcano-macro MAE; no2023 evaluation"
+}

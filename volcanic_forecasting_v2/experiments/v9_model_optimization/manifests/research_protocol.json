@@ -1,0 +1,32 @@
+{
+  "version": "v9_optimization_v1",
+  "dataset": "global_comet_LOS_v6_2_immutable",
+  "split": "v9_nested_training_cv_locked2023_v1",
+  "Stage2": "SUSPENDED: no seismic/fusion/eruption modeling, no new Stage2 files",
+  "train": "Exactly inherited V6 training targets/cutoffs",
+  "internal_cv": "early2016 train<2016;late2018 train<2018;region2018 excludes southeast_asia training and tests its2018–19 examples; all validation targets remain in inherited train population",
+  "screen": "late2018 one metadata-selected target per origin; refine only top4 families and evaluate family champions over all3folds",
+  "hyperparameter_selection": "Internal CV macro-volcano MAE, or future-field CRPS for neural distributions; equal fold weighting. Never2023 or old assessed outcomes",
+  "calibration2022": "Out-of-sample forecasts from pre2020 fits; variance scaling and learned fusion, quality-head evaluation only",
+  "final2023": "Locked development assessment, not hyperparameter tuning or shortlist changes",
+  "old_assessments": "Previously inspected V6–V8, exploratory only. Peru not scored; no new independent population",
+  "eligible_history": "Exactly same six actual acquisitions for every model; choosing a shorter subset is a model parameter, old12/18map references excluded from primary comparison",
+  "preprocessing": "Every learned scaler/basis/target scale fit training rows within each fold; no future target basis at inference",
+  "reliability": "Expert errors from chronological OOF fits; hyperparameter reuse may impart selection optimism, checked against separately OOS2022 errors. Final error head never uses2023 or assessment labels",
+  "fusion": "Nested/OOF expert predictions and independently OOS2022 blending targets. Bounded2branch shortlist;3branches only if >=.5% OOF gain OR residual correlation<.95; compare four maps vs3+reliability",
+  "finalists": "Prelock selected by internal CV plus complementary error patterns; no post2023 winner rerun",
+  "metrics": "Physical signed LOSmm, finite historical+future mask, training-fixed extremes, future coverage>=90% for map-event labels; no interpolated truth",
+  "multiplicity": "Family shortlists registered before final assessment; simultaneous frame/block bootstrap bounds and Bonferroni sensitivity for finalists; tiny descriptive changes not promotion",
+  "resources": {
+    "CPU_threads": 2,
+    "GPU_jobs": 1,
+    "pixel_training_sample": 32,
+    "max_kernel_rows": 1024,
+    "max_GPR_latent_cases": 256,
+    "neural_screen_epochs": 20,
+    "refinement_epochs": 40,
+    "full_epoch_limit": 60,
+    "phase_and_model_resume": true
+  },
+  "promotion": "No frozen replacement; requires new independent evidence, stable seeds, meaningful gains and safety/chronology/support; no confirmatory assessment in V9"
+}

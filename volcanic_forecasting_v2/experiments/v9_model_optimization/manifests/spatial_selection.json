@@ -1,0 +1,207 @@
+{
+  "finalists": [
+    {
+      "model_id": "spatial_block16_linear",
+      "representation": "block16",
+      "method": "linear",
+      "mae": 19.108662378667734,
+      "gradient_mae": 27.075031623905186,
+      "extreme_mae": 53.585401152390695
+    },
+    {
+      "model_id": "spatial_block16_RandomForest",
+      "representation": "block16",
+      "method": "RandomForest",
+      "mae": 20.36862525469959,
+      "gradient_mae": 26.84165956272915,
+      "extreme_mae": 57.63140305017023
+    },
+    {
+      "model_id": "spatial_geometry4_ridge",
+      "representation": "geometry4",
+      "method": "ridge",
+      "mae": 21.326728063520058,
+      "gradient_mae": 27.38557146945418,
+      "extreme_mae": 58.08645770665142
+    }
+  ],
+  "all_CV": [
+    {
+      "model_id": "spatial_geometry4_constant",
+      "representation": "geometry4",
+      "method": "constant",
+      "mae": 21.08811407541128,
+      "gradient_mae": 26.549057760052747,
+      "extreme_mae": 59.64613075242851
+    },
+    {
+      "model_id": "spatial_geometry4_linear",
+      "representation": "geometry4",
+      "method": "linear",
+      "mae": 19.31634513239854,
+      "gradient_mae": 27.048454414235493,
+      "extreme_mae": 54.974060404593104
+    },
+    {
+      "model_id": "spatial_geometry4_ridge",
+      "representation": "geometry4",
+      "method": "ridge",
+      "mae": 21.326728063520058,
+      "gradient_mae": 27.38557146945418,
+      "extreme_mae": 58.08645770665142
+    },
+    {
+      "model_id": "spatial_geometry4_huber",
+      "representation": "geometry4",
+      "method": "huber",
+      "mae": 25.482089864018423,
+      "gradient_mae": 30.84026178310342,
+      "extreme_mae": 56.727903495197175
+    },
+    {
+      "model_id": "spatial_geometry4_ema",
+      "representation": "geometry4",
+      "method": "ema",
+      "mae": 19.360194132275453,
+      "gradient_mae": 26.947525968498038,
+      "extreme_mae": 55.420605308708986
+    },
+    {
+      "model_id": "spatial_geometry4_kalman",
+      "representation": "geometry4",
+      "method": "kalman",
+      "mae": 20.54519094148086,
+      "gradient_mae": 27.757621330648647,
+      "extreme_mae": 54.1008952988575
+    },
+    {
+      "model_id": "spatial_geometry4_RandomForest",
+      "representation": "geometry4",
+      "method": "RandomForest",
+      "mae": 20.722842502474037,
+      "gradient_mae": 27.115844278497264,
+      "extreme_mae": 58.581851308147776
+    },
+    {
+      "model_id": "spatial_geometry4_ExtraTrees",
+      "representation": "geometry4",
+      "method": "ExtraTrees",
+      "mae": 20.60945793291242,
+      "gradient_mae": 27.215380257346766,
+      "extreme_mae": 58.41971368281503
+    },
+    {
+      "model_id": "spatial_geometry4_LightGBM",
+      "representation": "geometry4",
+      "method": "LightGBM",
+      "mae": 21.48682045573646,
+      "gradient_mae": 28.07376804552108,
+      "extreme_mae": 57.72158964786855
+    },
+    {
+      "model_id": "spatial_geometry4_GaussianProcess",
+      "representation": "geometry4",
+      "method": "GaussianProcess",
+      "mae": 20.826908108377587,
+      "gradient_mae": 27.538653248798898,
+      "extreme_mae": 56.838945519624644
+    },
+    {
+      "model_id": "spatial_geometry4_PLS",
+      "representation": "geometry4",
+      "method": "PLS",
+      "mae": 21.275806051500123,
+      "gradient_mae": 27.65862167143152,
+      "extreme_mae": 57.378778400118925
+    },
+    {
+      "model_id": "spatial_block16_constant",
+      "representation": "block16",
+      "method": "constant",
+      "mae": 21.08811407541128,
+      "gradient_mae": 26.549057760052747,
+      "extreme_mae": 59.64613075242851
+    },
+    {
+      "model_id": "spatial_block16_linear",
+      "representation": "block16",
+      "method": "linear",
+      "mae": 19.108662378667734,
+      "gradient_mae": 27.075031623905186,
+      "extreme_mae": 53.585401152390695
+    },
+    {
+      "model_id": "spatial_block16_ridge",
+      "representation": "block16",
+      "method": "ridge",
+      "mae": 21.46879782384092,
+      "gradient_mae": 27.218605108432765,
+      "extreme_mae": 57.663237085089115
+    },
+    {
+      "model_id": "spatial_block16_huber",
+      "representation": "block16",
+      "method": "huber",
+      "mae": 27.67274772811294,
+      "gradient_mae": 28.53655479107049,
+      "extreme_mae": 59.12483778474075
+    },
+    {
+      "model_id": "spatial_block16_ema",
+      "representation": "block16",
+      "method": "ema",
+      "mae": 19.125997491653337,
+      "gradient_mae": 26.966265637776775,
+      "extreme_mae": 54.10846016634353
+    },
+    {
+      "model_id": "spatial_block16_kalman",
+      "representation": "block16",
+      "method": "kalman",
+      "mae": 19.74321221100672,
+      "gradient_mae": 27.60831483710504,
+      "extreme_mae": 52.96788613479913
+    },
+    {
+      "model_id": "spatial_block16_RandomForest",
+      "representation": "block16",
+      "method": "RandomForest",
+      "mae": 20.36862525469959,
+      "gradient_mae": 26.84165956272915,
+      "extreme_mae": 57.63140305017023
+    },
+    {
+      "model_id": "spatial_block16_ExtraTrees",
+      "representation": "block16",
+      "method": "ExtraTrees",
+      "mae": 20.570552478891347,
+      "gradient_mae": 26.85613595295494,
+      "extreme_mae": 58.166404075236755
+    },
+    {
+      "model_id": "spatial_block16_LightGBM",
+      "representation": "block16",
+      "method": "LightGBM",
+      "mae": 21.21051407345988,
+      "gradient_mae": 27.3154451733224,
+      "extreme_mae": 57.32601625272549
+    },
+    {
+      "model_id": "spatial_block16_GaussianProcess",
+      "representation": "block16",
+      "method": "GaussianProcess",
+      "mae": 21.274764105588837,
+      "gradient_mae": 27.039301537621615,
+      "extreme_mae": 57.560870241267594
+    },
+    {
+      "model_id": "spatial_block16_PLS",
+      "representation": "block16",
+      "method": "PLS",
+      "mae": 21.679378371419176,
+      "gradient_mae": 27.33269600714189,
+      "extreme_mae": 57.51755787601741
+    }
+  ],
+  "criterion": "Training-internal MAE champion plus gradient specialist within10% MAE and Ridge reference; no2023 labels"
+}
